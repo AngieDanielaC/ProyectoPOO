@@ -68,6 +68,12 @@
     <Compile Include="ucBienestar.Designer.cs">
       <DependentUpon>ucBienestar.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucCompararCompetencias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCompararCompetencias.Designer.cs">
+      <DependentUpon>ucCompararCompetencias.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucCompetencias.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -116,6 +122,12 @@
     <Compile Include="ucSebCompetencia.Designer.cs">
       <DependentUpon>ucSebCompetencia.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucVerTodasLasCompetencias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucVerTodasLasCompetencias.Designer.cs">
+      <DependentUpon>ucVerTodasLasCompetencias.cs</DependentUpon>
+    </Compile>
     <Compile Include="usDeportistas.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -144,6 +156,9 @@
     <EmbeddedResource Include="ucBienestar.resx">
       <DependentUpon>ucBienestar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucCompararCompetencias.resx">
+      <DependentUpon>ucCompararCompetencias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucCompetencias.resx">
       <DependentUpon>ucCompetencias.cs</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +182,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucSebCompetencia.resx">
       <DependentUpon>ucSebCompetencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucVerTodasLasCompetencias.resx">
+      <DependentUpon>ucVerTodasLasCompetencias.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="usDeportistas.resx">
       <DependentUpon>usDeportistas.cs</DependentUpon>
@@ -319,6 +337,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\comp51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accesoEntrenamientos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccesoComp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accesoMetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccesoReportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
