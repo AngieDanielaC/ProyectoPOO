@@ -40,6 +40,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -97,11 +98,23 @@
     <Compile Include="ucMotivacion.Designer.cs">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucRegistrarCompetencia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucRegistrarCompetencia.Designer.cs">
+      <DependentUpon>ucRegistrarCompetencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucReportes.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucReportes.Designer.cs">
       <DependentUpon>ucReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucSebCompetencia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSebCompetencia.Designer.cs">
+      <DependentUpon>ucSebCompetencia.cs</DependentUpon>
     </Compile>
     <Compile Include="usDeportistas.cs">
       <SubType>UserControl</SubType>
@@ -146,8 +159,14 @@
     <EmbeddedResource Include="ucMotivacion.resx">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ucRegistrarCompetencia.resx">
+      <DependentUpon>ucRegistrarCompetencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucReportes.resx">
       <DependentUpon>ucReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSebCompetencia.resx">
+      <DependentUpon>ucSebCompetencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="usDeportistas.resx">
       <DependentUpon>usDeportistas.cs</DependentUpon>
@@ -279,6 +298,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\comp3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icVolver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CuComp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cu2Comp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cu5Comp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cu3Compe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCompe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp51.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
