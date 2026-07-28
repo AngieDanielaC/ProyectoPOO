@@ -40,8 +40,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.btnMinimizarMenu = new FontAwesome.Sharp.IconButton();
-            this.btnCerrarMenu = new FontAwesome.Sharp.IconButton();
+
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnCerarSesionMeno = new System.Windows.Forms.Button();
@@ -52,8 +51,6 @@
             this.btnMonitoreo = new System.Windows.Forms.Button();
             this.btnDeportistas = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
-            this.btnMinimizarM = new FontAwesome.Sharp.IconButton();
-            this.btnCerrarM = new FontAwesome.Sharp.IconButton();
             this.pnlMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -172,10 +169,6 @@
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.White;
-            this.panel10.Controls.Add(this.btnMinimizarM);
-            this.panel10.Controls.Add(this.btnCerrarM);
-            this.panel10.Controls.Add(this.btnMinimizarMenu);
-            this.panel10.Controls.Add(this.btnCerrarMenu);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(253, 0);
             this.panel10.Name = "panel10";
@@ -183,36 +176,7 @@
             this.panel10.TabIndex = 10;
             this.panel10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel10_MouseDown);
             // 
-            // btnMinimizarMenu
-            // 
-            this.btnMinimizarMenu.BackColor = System.Drawing.Color.White;
-            this.btnMinimizarMenu.FlatAppearance.BorderSize = 0;
-            this.btnMinimizarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizarMenu.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.btnMinimizarMenu.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(74)))));
-            this.btnMinimizarMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMinimizarMenu.IconSize = 30;
-            this.btnMinimizarMenu.Location = new System.Drawing.Point(1552, 3);
-            this.btnMinimizarMenu.Name = "btnMinimizarMenu";
-            this.btnMinimizarMenu.Size = new System.Drawing.Size(43, 22);
-            this.btnMinimizarMenu.TabIndex = 16;
-            this.btnMinimizarMenu.UseVisualStyleBackColor = false;
-            // 
-            // btnCerrarMenu
-            // 
-            this.btnCerrarMenu.BackColor = System.Drawing.Color.White;
-            this.btnCerrarMenu.FlatAppearance.BorderSize = 0;
-            this.btnCerrarMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarMenu.IconChar = FontAwesome.Sharp.IconChar.X;
-            this.btnCerrarMenu.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btnCerrarMenu.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCerrarMenu.IconSize = 30;
-            this.btnCerrarMenu.Location = new System.Drawing.Point(1591, 0);
-            this.btnCerrarMenu.Name = "btnCerrarMenu";
-            this.btnCerrarMenu.Size = new System.Drawing.Size(34, 27);
-            this.btnCerrarMenu.TabIndex = 15;
-            this.btnCerrarMenu.UseVisualStyleBackColor = false;
-            // 
+
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProyectoPOO.Properties.Resources.LogoMenu;
@@ -377,39 +341,7 @@
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = true;
             this.btnInicio.Click += new System.EventHandler(this.btnInicio_Click);
-            // 
-            // btnMinimizarM
-            // 
-            this.btnMinimizarM.BackColor = System.Drawing.Color.White;
-            this.btnMinimizarM.FlatAppearance.BorderSize = 0;
-            this.btnMinimizarM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMinimizarM.IconChar = FontAwesome.Sharp.IconChar.Minus;
-            this.btnMinimizarM.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(74)))));
-            this.btnMinimizarM.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnMinimizarM.IconSize = 30;
-            this.btnMinimizarM.Location = new System.Drawing.Point(1292, 5);
-            this.btnMinimizarM.Name = "btnMinimizarM";
-            this.btnMinimizarM.Size = new System.Drawing.Size(43, 22);
-            this.btnMinimizarM.TabIndex = 18;
-            this.btnMinimizarM.UseVisualStyleBackColor = false;
-            this.btnMinimizarM.Click += new System.EventHandler(this.btnMinimizarM_Click);
-            // 
-            // btnCerrarM
-            // 
-            this.btnCerrarM.BackColor = System.Drawing.Color.White;
-            this.btnCerrarM.FlatAppearance.BorderSize = 0;
-            this.btnCerrarM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarM.IconChar = FontAwesome.Sharp.IconChar.X;
-            this.btnCerrarM.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(43)))), ((int)(((byte)(74)))));
-            this.btnCerrarM.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCerrarM.IconSize = 30;
-            this.btnCerrarM.Location = new System.Drawing.Point(1336, 3);
-            this.btnCerrarM.Name = "btnCerrarM";
-            this.btnCerrarM.Size = new System.Drawing.Size(34, 27);
-            this.btnCerrarM.TabIndex = 17;
-            this.btnCerrarM.UseVisualStyleBackColor = false;
-            this.btnCerrarM.Click += new System.EventHandler(this.btnCerrarM_Click);
-            // 
+            
             // wfrMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -452,9 +384,5 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel10;
-        private FontAwesome.Sharp.IconButton btnCerrarMenu;
-        private FontAwesome.Sharp.IconButton btnMinimizarMenu;
-        private FontAwesome.Sharp.IconButton btnMinimizarM;
-        private FontAwesome.Sharp.IconButton btnCerrarM;
     }
 }
