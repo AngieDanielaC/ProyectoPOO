@@ -34,7 +34,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(175, 167);
+            this.button1.Location = new System.Drawing.Point(466, 131);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(382, 124);
             this.button1.TabIndex = 0;
@@ -44,7 +44,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(262, 97);
+            this.label1.Location = new System.Drawing.Point(811, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(111, 16);
             this.label1.TabIndex = 1;
@@ -58,7 +58,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ucBienestar";
-            this.Size = new System.Drawing.Size(1831, 1083);
+            this.Size = new System.Drawing.Size(1026, 787);
             this.ResumeLayout(false);
             this.PerformLayout();
 
