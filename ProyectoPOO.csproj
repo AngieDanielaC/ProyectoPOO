@@ -262,5 +262,23 @@
   <ItemGroup>
     <None Include="IMAGENES\#03370A\9.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comp3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
