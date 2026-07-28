@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{209AE271-58C7-4B18-8757-B92C0FB21E0A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoPOO</RootNamespace>
+    <AssemblyName>ProyectoPOO</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucBienestar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBienestar.Designer.cs">
+      <DependentUpon>ucBienestar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucCompetencias.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucCompetencias.Designer.cs">
+      <DependentUpon>ucCompetencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucEntrenamientos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEntrenamientos.Designer.cs">
+      <DependentUpon>ucEntrenamientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucInicio.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucInicio.Designer.cs">
+      <DependentUpon>ucInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMonitoreo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMonitoreo.Designer.cs">
+      <DependentUpon>ucMonitoreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMotivacion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMotivacion.Designer.cs">
+      <DependentUpon>ucMotivacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucReportes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucReportes.Designer.cs">
+      <DependentUpon>ucReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usDeportistas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usDeportistas.Designer.cs">
+      <DependentUpon>usDeportistas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfrMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfrMenuPrincipal.Designer.cs">
+      <DependentUpon>wfrMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucBienestar.resx">
+      <DependentUpon>ucBienestar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucCompetencias.resx">
+      <DependentUpon>ucCompetencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEntrenamientos.resx">
+      <DependentUpon>ucEntrenamientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucInicio.resx">
+      <DependentUpon>ucInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMonitoreo.resx">
+      <DependentUpon>ucMonitoreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMotivacion.resx">
+      <DependentUpon>ucMotivacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucReportes.resx">
+      <DependentUpon>ucReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usDeportistas.resx">
+      <DependentUpon>usDeportistas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfrMenuPrincipal.resx">
+      <DependentUpon>wfrMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\ImagenLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\ImagenLogin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\IMGLOGIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\RecuadroLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\botonLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\btnLogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\btnRegistrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\LogoMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\Linicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LDeportistas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LEnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\Linicio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\Linicio3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LDeportistas3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LMonitoreo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LComp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\Lbien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LMotiv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LReportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Iconos Menu\LCerr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\Inicio\Inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGENES\#03370A\9.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
