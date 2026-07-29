@@ -21,13 +21,13 @@ namespace ProyectoPOO
         {
             if (controlActivo != null)
             {
-                panelBienestar.Controls.Remove(controlActivo);
+                panelBienestarBackground.Controls.Remove(controlActivo);
                 controlActivo.Dispose();
             }
             controlActivo = controlhijo;
             controlhijo.Dock = DockStyle.Fill;
-            panelBienestar.Controls.Add(controlhijo);
-            panelBienestar.Tag = controlhijo;
+            panelBienestarBackground.Controls.Add(controlhijo);
+            panelBienestarBackground.Tag = controlhijo;
 
             controlhijo.BringToFront();
             controlhijo.Show();

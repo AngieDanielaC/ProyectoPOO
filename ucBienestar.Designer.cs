@@ -31,12 +31,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.lblMainBienestar = new System.Windows.Forms.Label();
             this.panelBienestar = new System.Windows.Forms.Panel();
-            this.panelBienestarBackground = new System.Windows.Forms.Panel();
             this.btnVD = new System.Windows.Forms.Button();
             this.btnGC = new System.Windows.Forms.Button();
             this.btnRFatiga = new System.Windows.Forms.Button();
+            this.panelBienestarBackground = new System.Windows.Forms.Panel();
             this.panelBienestar.SuspendLayout();
-            this.panelBienestarBackground.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -54,9 +53,9 @@
             this.lblMainBienestar.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblMainBienestar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblMainBienestar.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMainBienestar.Location = new System.Drawing.Point(3, 0);
+            this.lblMainBienestar.Location = new System.Drawing.Point(0, 0);
             this.lblMainBienestar.Name = "lblMainBienestar";
-            this.lblMainBienestar.Size = new System.Drawing.Size(238, 80);
+            this.lblMainBienestar.Size = new System.Drawing.Size(337, 89);
             this.lblMainBienestar.TabIndex = 1;
             this.lblMainBienestar.Text = "BIENESTAR";
             // 
@@ -64,24 +63,15 @@
             // 
             this.panelBienestar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(63)))), ((int)(((byte)(112)))));
             this.panelBienestar.Controls.Add(this.button1);
+            this.panelBienestar.Controls.Add(this.lblMainBienestar);
             this.panelBienestar.Controls.Add(this.btnVD);
             this.panelBienestar.Controls.Add(this.btnGC);
             this.panelBienestar.Controls.Add(this.btnRFatiga);
-            this.panelBienestar.Controls.Add(this.lblMainBienestar);
             this.panelBienestar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelBienestar.Location = new System.Drawing.Point(0, 0);
             this.panelBienestar.Name = "panelBienestar";
-            this.panelBienestar.Size = new System.Drawing.Size(241, 787);
+            this.panelBienestar.Size = new System.Drawing.Size(240, 787);
             this.panelBienestar.TabIndex = 2;
-            // 
-            // panelBienestarBackground
-            // 
-            this.panelBienestarBackground.Controls.Add(this.panelBienestar);
-            this.panelBienestarBackground.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBienestarBackground.Location = new System.Drawing.Point(0, 0);
-            this.panelBienestarBackground.Name = "panelBienestarBackground";
-            this.panelBienestarBackground.Size = new System.Drawing.Size(1026, 787);
-            this.panelBienestarBackground.TabIndex = 3;
             // 
             // btnVD
             // 
@@ -110,7 +100,7 @@
             this.btnGC.ForeColor = System.Drawing.Color.White;
             this.btnGC.Image = global::ProyectoPOO.Properties.Resources._3;
             this.btnGC.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGC.Location = new System.Drawing.Point(4, 242);
+            this.btnGC.Location = new System.Drawing.Point(0, 245);
             this.btnGC.Margin = new System.Windows.Forms.Padding(4);
             this.btnGC.Name = "btnGC";
             this.btnGC.Size = new System.Drawing.Size(269, 103);
@@ -137,16 +127,24 @@
             this.btnRFatiga.UseVisualStyleBackColor = true;
             this.btnRFatiga.Click += new System.EventHandler(this.btnRFatiga_Click);
             // 
+            // panelBienestarBackground
+            // 
+            this.panelBienestarBackground.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelBienestarBackground.Location = new System.Drawing.Point(241, 0);
+            this.panelBienestarBackground.Name = "panelBienestarBackground";
+            this.panelBienestarBackground.Size = new System.Drawing.Size(785, 787);
+            this.panelBienestarBackground.TabIndex = 3;
+            // 
             // ucBienestar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panelBienestar);
             this.Controls.Add(this.panelBienestarBackground);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ucBienestar";
             this.Size = new System.Drawing.Size(1026, 787);
             this.panelBienestar.ResumeLayout(false);
-            this.panelBienestarBackground.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
