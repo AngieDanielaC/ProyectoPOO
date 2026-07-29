@@ -79,7 +79,7 @@
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlMenu.Location = new System.Drawing.Point(0, 0);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(253, 908);
+            this.pnlMenu.Size = new System.Drawing.Size(253, 788);
             this.pnlMenu.TabIndex = 0;
             // 
             // panel9
@@ -326,7 +326,7 @@
             this.pnlContenedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlContenedor.Location = new System.Drawing.Point(253, 0);
             this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(1386, 908);
+            this.pnlContenedor.Size = new System.Drawing.Size(1133, 788);
             this.pnlContenedor.TabIndex = 1;
             // 
             // panel10
@@ -335,7 +335,7 @@
             this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel10.Location = new System.Drawing.Point(253, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1386, 30);
+            this.panel10.Size = new System.Drawing.Size(1133, 30);
             this.panel10.TabIndex = 10;
             this.panel10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel10_MouseDown);
             // 
@@ -343,7 +343,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1639, 908);
+            this.ClientSize = new System.Drawing.Size(1386, 788);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.pnlContenedor);
             this.Controls.Add(this.pnlMenu);

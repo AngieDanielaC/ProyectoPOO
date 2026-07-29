@@ -127,14 +127,20 @@
   <data name="RecuadroLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\RecuadroLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ButtonAñadir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAñadir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LDeportistas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\LDeportistas3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AccesoComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AccesoComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="botonLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\botonLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MotivacionMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionEditar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionEditar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnCompe" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnCompe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +148,8 @@
   <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\#03370A\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="comp51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MotivacionImg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionImg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Linicio3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\Linicio3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +157,11 @@
   <data name="accesoEntrenamientos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\accesoEntrenamientos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LogoMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\LogoMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="botonLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\botonLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionImg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionImg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\#03370A\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +196,8 @@
   <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\#03370A\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMGLOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LogoMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\LogoMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\btnLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,6 +214,9 @@
   <data name="accesoMetas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\accesoMetas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IMGLOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Circulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Circulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -214,8 +226,20 @@
   <data name="Linicio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\Linicio2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="comp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LDeportistas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\LDeportistas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCuadro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCuadro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionImg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionImg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\#03370A\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -223,11 +247,14 @@
   <data name="LMonitoreo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\LMonitoreo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Cu2Comp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cu2Comp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AccesoReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AccesoReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="comp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MotivacionEstrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionEstrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\LReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,8 +268,11 @@
   <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\#03370A\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMGLOGIN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="comp51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionEditarSI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionEditarSI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\#03370A\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,8 +283,8 @@
   <data name="Lbien" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\Iconos Menu\Lbien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cu2Comp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cu2Comp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMGLOGIN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="comp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\comp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,7 +298,7 @@
   <data name="icVolver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icVolver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="flecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MotivacionMostrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionMostrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

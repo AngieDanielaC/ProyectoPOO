@@ -233,6 +233,26 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ButtonAñadir {
+            get {
+                object obj = ResourceManager.GetObject("ButtonAñadir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap buttonCuadro {
+            get {
+                object obj = ResourceManager.GetObject("buttonCuadro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Circulo {
             get {
                 object obj = ResourceManager.GetObject("Circulo", resourceCulture);
@@ -556,6 +576,86 @@ namespace ProyectoPOO.Properties {
         internal static System.Drawing.Bitmap LReportes {
             get {
                 object obj = ResourceManager.GetObject("LReportes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionEditar {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionEditar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionEditarSI {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionEditarSI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionEstrella {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionEstrella", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionImg1 {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionImg1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionImg2 {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionImg2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionImg3 {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionImg3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionMenu {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionMenu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionMostrar {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionMostrar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

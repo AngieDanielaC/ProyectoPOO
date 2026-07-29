@@ -104,6 +104,12 @@
     <Compile Include="ucMotivacion.Designer.cs">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucMotivacionDestacado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMotivacionDestacado.Designer.cs">
+      <DependentUpon>ucMotivacionDestacado.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucRegistrarCompetencia.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucMotivacion.resx">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMotivacionDestacado.resx">
+      <DependentUpon>ucMotivacionDestacado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucRegistrarCompetencia.resx">
       <DependentUpon>ucRegistrarCompetencia.cs</DependentUpon>
@@ -352,6 +361,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\flecha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonCuadro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonAñadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionImg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionImg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionImg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionEstrella.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionEditar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionEditarSI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionMostrar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
