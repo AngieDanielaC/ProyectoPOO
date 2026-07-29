@@ -16,5 +16,19 @@ namespace ProyectoPOO
         {
             InitializeComponent();
         }
+
+        private void btnCrearCuenta_Click(object sender, EventArgs e)
+        {
+            Form1 menu = new Form1();
+            menu.Show();
+            this.Hide();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Form1 menu = new Form1();
+            menu.Show();
+            this.Hide();
+        }
     }
 }

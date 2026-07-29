@@ -398,5 +398,32 @@
   <ItemGroup>
     <None Include="Resources\CuadroBlanco.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcRegistroEnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuaCeleste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botonRegisEntre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Texto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdAccComp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdAccMetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuAccEntre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuadroResumen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -73,5 +73,12 @@ namespace ProyectoPOO
             menu.Show();
             this.Hide();
         }
+
+        private void btnRegistar_Click(object sender, EventArgs e)
+        {
+            frmRegistroEntrenador menu = new frmRegistroEntrenador();
+            menu.Show();
+            this.Hide();
+        }
     }
 }
