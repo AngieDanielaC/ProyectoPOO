@@ -128,6 +128,12 @@
     <Compile Include="ucMotivacion.Designer.cs">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucNuevoDeportista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucNuevoDeportista.Designer.cs">
+      <DependentUpon>ucNuevoDeportista.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucRegistrarCompetencia.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -209,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucMotivacion.resx">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucNuevoDeportista.resx">
+      <DependentUpon>ucNuevoDeportista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucRegistrarCompetencia.resx">
       <DependentUpon>ucRegistrarCompetencia.cs</DependentUpon>
@@ -424,6 +433,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cuadroResumen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcDEPORTISTAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotonMas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -203,6 +203,16 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BotonMas {
+            get {
+                object obj = ResourceManager.GetObject("BotonMas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap botonRegisEntre {
             get {
                 object obj = ResourceManager.GetObject("botonRegisEntre", resourceCulture);
@@ -416,6 +426,16 @@ namespace ProyectoPOO.Properties {
         internal static System.Drawing.Bitmap flecha {
             get {
                 object obj = ResourceManager.GetObject("flecha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap IcDEPORTISTAS {
+            get {
+                object obj = ResourceManager.GetObject("IcDEPORTISTAS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
