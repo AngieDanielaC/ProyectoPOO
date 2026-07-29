@@ -16,5 +16,19 @@ namespace ProyectoPOO
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            usDeportistas nuevoControl = new usDeportistas();
+            nuevoControl.Dock = DockStyle.Fill;
+
+            Control contenedor = this.Parent;
+
+            if (contenedor != null)
+            {
+                contenedor.Controls.Clear();
+                contenedor.Controls.Add(nuevoControl);
+            }
+        }
     }
 }
