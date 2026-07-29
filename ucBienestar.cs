@@ -16,20 +16,36 @@ namespace ProyectoPOO
         {
             InitializeComponent();
         }
+        private UserControl controlActivo = null;
+        private void AbrirFrmBienestar(UserControl controlhijo)
+        {
+            if (controlActivo != null)
+            {
+                panelBienestar.Controls.Remove(controlActivo);
+                controlActivo.Dispose();
+            }
+            controlActivo = controlhijo;
+            controlhijo.Dock = DockStyle.Fill;
+            panelBienestar.Controls.Add(controlhijo);
+            panelBienestar.Tag = controlhijo;
+
+            controlhijo.BringToFront();
+            controlhijo.Show();
+        }
 
         private void btnRFatiga_Click(object sender, EventArgs e)
         {
-
+            AbrirFrmBienestar(new ucBRiesgoF());
         }
 
         private void btnGC_Click(object sender, EventArgs e)
         {
-
+            AbrirFrmBienestar(new ucBGastoC());
         }
 
         private void btnVD_Click(object sender, EventArgs e)
         {
-
+            AbrirFrmBienestar(new ucBVRe());
         }
     }
 }
