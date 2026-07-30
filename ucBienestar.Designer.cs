@@ -126,7 +126,7 @@
             this.btnRFatiga.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRFatiga.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRFatiga.ForeColor = System.Drawing.Color.White;
-            this.btnRFatiga.Image = global::ProyectoPOO.Properties.Resources.riesgo1_1;
+
             this.btnRFatiga.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRFatiga.Location = new System.Drawing.Point(0, 107);
             this.btnRFatiga.Margin = new System.Windows.Forms.Padding(4);

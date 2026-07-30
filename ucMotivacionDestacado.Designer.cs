@@ -324,7 +324,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(95)))), ((int)(((byte)(165)))));
-            this.button1.BackgroundImage = global::ProyectoPOO.Properties.Resources.MotivacionMostrar;
+
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -339,7 +339,7 @@
             // bttRecordatorio
             // 
             this.bttRecordatorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(88)))), ((int)(((byte)(95)))), ((int)(((byte)(165)))));
-            this.bttRecordatorio.BackgroundImage = global::ProyectoPOO.Properties.Resources.MotivacionEditarSI;
+            
             this.bttRecordatorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttRecordatorio.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttRecordatorio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;

@@ -204,7 +204,7 @@
             // bttRecordatorio
             // 
             this.bttRecordatorio.BackColor = System.Drawing.Color.White;
-            this.bttRecordatorio.BackgroundImage = global::ProyectoPOO.Properties.Resources.MotivacionImg3;
+            
             this.bttRecordatorio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bttRecordatorio.Location = new System.Drawing.Point(567, 647);
             this.bttRecordatorio.Name = "bttRecordatorio";
