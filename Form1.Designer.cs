@@ -180,6 +180,7 @@
             this.btnRegistar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRegistar.UseVisualStyleBackColor = false;
+            this.btnRegistar.Click += new System.EventHandler(this.btnRegistar_Click);
             // 
             // pictureBox3
             // 

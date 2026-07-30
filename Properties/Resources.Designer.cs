@@ -203,6 +203,26 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BotonMas {
+            get {
+                object obj = ResourceManager.GetObject("BotonMas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap botonRegisEntre {
+            get {
+                object obj = ResourceManager.GetObject("botonRegisEntre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCompe {
             get {
                 object obj = ResourceManager.GetObject("btnCompe", resourceCulture);
@@ -246,6 +266,26 @@ namespace ProyectoPOO.Properties {
         internal static System.Drawing.Bitmap buttonCuadro {
             get {
                 object obj = ResourceManager.GetObject("buttonCuadro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cdAccComp {
+            get {
+                object obj = ResourceManager.GetObject("cdAccComp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cdAccMetas {
+            get {
+                object obj = ResourceManager.GetObject("cdAccMetas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,6 +393,46 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cuAccEntre {
+            get {
+                object obj = ResourceManager.GetObject("cuAccEntre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cuaCeleste {
+            get {
+                object obj = ResourceManager.GetObject("cuaCeleste", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CuadroBlanco {
+            get {
+                object obj = ResourceManager.GetObject("CuadroBlanco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cuadroResumen {
+            get {
+                object obj = ResourceManager.GetObject("cuadroResumen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CuComp {
             get {
                 object obj = ResourceManager.GetObject("CuComp", resourceCulture);
@@ -373,9 +453,29 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap IcDEPORTISTAS {
+            get {
+                object obj = ResourceManager.GetObject("IcDEPORTISTAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icVolver {
             get {
                 object obj = ResourceManager.GetObject("icVolver", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ImagenI {
+            get {
+                object obj = ResourceManager.GetObject("ImagenI", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,9 +763,49 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pcRegistroEnt {
+            get {
+                object obj = ResourceManager.GetObject("pcRegistroEnt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap RecuadroLogin {
             get {
                 object obj = ResourceManager.GetObject("RecuadroLogin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap riesgo1_1 {
+            get {
+                object obj = ResourceManager.GetObject("riesgo1.1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RUN1 {
+            get {
+                object obj = ResourceManager.GetObject("RUN1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Texto {
+            get {
+                object obj = ResourceManager.GetObject("Texto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

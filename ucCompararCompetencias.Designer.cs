@@ -43,11 +43,11 @@
             this.cvariacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Regresar = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtvComparar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -190,15 +190,16 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // Regresar
             // 
-            this.pictureBox1.Image = global::ProyectoPOO.Properties.Resources.icVolver;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 53);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.Regresar.Image = global::ProyectoPOO.Properties.Resources.icVolver;
+            this.Regresar.Location = new System.Drawing.Point(17, 53);
+            this.Regresar.Name = "Regresar";
+            this.Regresar.Size = new System.Drawing.Size(56, 48);
+            this.Regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Regresar.TabIndex = 5;
+            this.Regresar.TabStop = false;
+            this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
             // ucCompararCompetencias
             // 
@@ -214,13 +215,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Regresar);
             this.Name = "ucCompararCompetencias";
             this.Size = new System.Drawing.Size(1042, 787);
             ((System.ComponentModel.ISupportInitialize)(this.dtvComparar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Regresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,7 +230,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox Regresar;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

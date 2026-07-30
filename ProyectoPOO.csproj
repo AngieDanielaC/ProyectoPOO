@@ -60,13 +60,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRegistroEntrenador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistroEntrenador.Designer.cs">
+      <DependentUpon>frmRegistroEntrenador.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucBGastoC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBGastoC.Designer.cs">
+      <DependentUpon>ucBGastoC.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucBienestar.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="ucBienestar.Designer.cs">
       <DependentUpon>ucBienestar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBRiesgoF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBRiesgoF.Designer.cs">
+      <DependentUpon>ucBRiesgoF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucBVRe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBVRe.Designer.cs">
+      <DependentUpon>ucBVRe.cs</DependentUpon>
     </Compile>
     <Compile Include="ucCompararCompetencias.cs">
       <SubType>UserControl</SubType>
@@ -110,6 +134,12 @@
     <Compile Include="ucMotivacionDestacado.Designer.cs">
       <DependentUpon>ucMotivacionDestacado.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucNuevoDeportista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucNuevoDeportista.Designer.cs">
+      <DependentUpon>ucNuevoDeportista.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucRegistrarCompetencia.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -149,6 +179,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistroEntrenador.resx">
+      <DependentUpon>frmRegistroEntrenador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -159,8 +192,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ucBGastoC.resx">
+      <DependentUpon>ucBGastoC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ucBienestar.resx">
       <DependentUpon>ucBienestar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBRiesgoF.resx">
+      <DependentUpon>ucBRiesgoF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBVRe.resx">
+      <DependentUpon>ucBVRe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucCompararCompetencias.resx">
       <DependentUpon>ucCompararCompetencias.cs</DependentUpon>
@@ -182,6 +224,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucMotivacionDestacado.resx">
       <DependentUpon>ucMotivacionDestacado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucNuevoDeportista.resx">
+      <DependentUpon>ucNuevoDeportista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucRegistrarCompetencia.resx">
       <DependentUpon>ucRegistrarCompetencia.cs</DependentUpon>
@@ -391,6 +436,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MotivacionMostrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riesgo1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RUN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CuadroBlanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcRegistroEnt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuaCeleste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImagenI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botonRegisEntre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Texto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdAccComp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdAccMetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuAccEntre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuadroResumen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IcDEPORTISTAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotonMas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

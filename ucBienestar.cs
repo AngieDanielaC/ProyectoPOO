@@ -16,5 +16,20 @@ namespace ProyectoPOO
         {
             InitializeComponent();
         }
+
+        private void btnRFatiga_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGC_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVD_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -51,7 +51,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.regresar = new System.Windows.Forms.PictureBox();
             this.txtNombreCompetencia = new System.Windows.Forms.TextBox();
             this.txtFechaComp = new System.Windows.Forms.TextBox();
             this.txtCategoria = new System.Windows.Forms.TextBox();
@@ -71,7 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.regresar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -342,15 +342,16 @@
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // regresar
             // 
-            this.pictureBox1.Image = global::ProyectoPOO.Properties.Resources.icVolver;
-            this.pictureBox1.Location = new System.Drawing.Point(11, 28);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 48);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.regresar.Image = global::ProyectoPOO.Properties.Resources.icVolver;
+            this.regresar.Location = new System.Drawing.Point(11, 28);
+            this.regresar.Name = "regresar";
+            this.regresar.Size = new System.Drawing.Size(56, 48);
+            this.regresar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.regresar.TabIndex = 3;
+            this.regresar.TabStop = false;
+            this.regresar.Click += new System.EventHandler(this.regresar_Click);
             // 
             // txtNombreCompetencia
             // 
@@ -469,7 +470,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.regresar);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(235)))), ((int)(((byte)(238)))));
             this.Name = "ucRegistrarCompetencia";
             this.Size = new System.Drawing.Size(1042, 787);
@@ -483,7 +484,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.regresar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -492,7 +493,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox regresar;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;

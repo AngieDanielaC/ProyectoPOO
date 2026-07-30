@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace ProyectoPOO
 {
-    public partial class usDeportistas : UserControl
+    public partial class ucNuevoDeportista : UserControl
     {
-        public usDeportistas()
+        public ucNuevoDeportista()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
-            ucNuevoDeportista nuevoControl = new ucNuevoDeportista();
+            usDeportistas nuevoControl = new usDeportistas();
             nuevoControl.Dock = DockStyle.Fill;
 
             Control contenedor = this.Parent;

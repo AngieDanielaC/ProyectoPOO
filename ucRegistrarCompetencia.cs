@@ -26,5 +26,19 @@ namespace ProyectoPOO
         {
 
         }
+
+        private void regresar_Click(object sender, EventArgs e)
+        {
+            ucSebCompetencia nuevoControl = new ucSebCompetencia();
+            nuevoControl.Dock = DockStyle.Fill;
+
+            Control contenedor = this.Parent;
+
+            if (contenedor != null)
+            {
+                contenedor.Controls.Clear();
+                contenedor.Controls.Add(nuevoControl);
+            }
+        }
     }
 }
