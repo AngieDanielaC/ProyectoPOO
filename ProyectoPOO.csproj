@@ -54,6 +54,30 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="entrenamiento\ucEntrenamientoActivo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entrenamiento\ucEntrenamientoActivo.Designer.cs">
+      <DependentUpon>ucEntrenamientoActivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entrenamiento\ucEntrenamientoFisico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entrenamiento\ucEntrenamientoFisico.Designer.cs">
+      <DependentUpon>ucEntrenamientoFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entrenamiento\ucPruebaActiva.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entrenamiento\ucPruebaActiva.Designer.cs">
+      <DependentUpon>ucPruebaActiva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="entrenamiento\ucPruebaFisica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="entrenamiento\ucPruebaFisica.Designer.cs">
+      <DependentUpon>ucPruebaFisica.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +205,15 @@
     <Compile Include="wfrMenuPrincipal.Designer.cs">
       <DependentUpon>wfrMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="entrenamiento\ucEntrenamientoActivo.resx">
+      <DependentUpon>ucEntrenamientoActivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entrenamiento\ucEntrenamientoFisico.resx">
+      <DependentUpon>ucEntrenamientoFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="entrenamiento\ucPruebaFisica.resx">
+      <DependentUpon>ucPruebaFisica.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

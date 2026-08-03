@@ -8,16 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoPOO
+namespace ProyectoPOO.entrenamiento
 {
-    public partial class ucEntrenamientos : UserControl
+    public partial class ucEntrenamientoActivo : UserControl
     {
-        public ucEntrenamientos()
+        public ucEntrenamientoActivo()
         {
             InitializeComponent();
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void ucEntrenamientoActivo_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelDerecho_Paint(object sender, PaintEventArgs e)
         {
 
         }
