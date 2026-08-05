@@ -64,5 +64,19 @@ namespace ProyectoPOO
                 contenedor.Controls.Add(nuevoControl);
             }
         }
+
+        private void bttRecordatorio_Click(object sender, EventArgs e)
+        {
+            ucMotivacioRecordatorios nuevoControl = new ucMotivacioRecordatorios();
+            nuevoControl.Dock = DockStyle.Fill;
+
+            Control contenedor = this.Parent;
+
+            if (contenedor != null)
+            {
+                contenedor.Controls.Clear();
+                contenedor.Controls.Add(nuevoControl);
+            }
+        }
     }
 }

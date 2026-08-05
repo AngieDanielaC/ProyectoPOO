@@ -213,6 +213,7 @@
             this.bttRecordatorio.Size = new System.Drawing.Size(68, 62);
             this.bttRecordatorio.TabIndex = 21;
             this.bttRecordatorio.UseVisualStyleBackColor = false;
+            this.bttRecordatorio.Click += new System.EventHandler(this.bttRecordatorio_Click);
             // 
             // pictureBox7
             // 

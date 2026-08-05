@@ -683,6 +683,26 @@ namespace ProyectoPOO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MotivacionCOmpletar {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionCOmpletar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MotivacionCrear {
+            get {
+                object obj = ResourceManager.GetObject("MotivacionCrear", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MotivacionEditarSI {
             get {
                 object obj = ResourceManager.GetObject("MotivacionEditarSI", resourceCulture);
