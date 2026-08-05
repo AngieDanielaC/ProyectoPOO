@@ -118,229 +118,226 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="RUN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RUN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnRegistrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\btnRegistrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Inicio\Inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RecuadroLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\RecuadroLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ButtonAñadir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ButtonAñadir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LDeportistas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LDeportistas3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AccesoComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AccesoComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MotivacionMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MotivacionMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
- 
-  <data name="LMotiv" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LMotiv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cdAccMetas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cdAccMetas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Texto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Texto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IMGLOGIN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnCompe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCompe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  
-  <data name="LReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Linicio3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\Linicio3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuAccEntre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuAccEntre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="accesoEntrenamientos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\accesoEntrenamientos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  
-  <data name="comp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MotivacionImg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MotivacionImg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cuadroResumen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuadroResumen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Linicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\Linicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="comp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CuComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CuComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImagenLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\ImagenLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LCerr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LCerr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Lbien" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\Lbien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="comp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LEnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LEnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LogoMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\LogoMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\btnLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LEnt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LEnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImagenI" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImagenI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cu5Comp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cu5Comp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="accesoMetas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\accesoMetas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMGLOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Circulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Circulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Linicio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\Linicio2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="comp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="flecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IcDEPORTISTAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IcDEPORTISTAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LDeportistas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LDeportistas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pcRegistroEnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pcRegistroEnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="buttonCuadro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\buttonCuadro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MotivacionImg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MotivacionImg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LMonitoreo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LMonitoreo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cu2Comp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cu2Comp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AccesoReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AccesoReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  
-  <data name="MotivacionEstrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MotivacionEstrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\Iconos Menu\LReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\IMAGENES\LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="comp5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LDeportistas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LDeportistas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MotivacionEditarSI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionEditarSI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="comp51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AccesoComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccesoComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="botonRegisEntre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botonRegisEntre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ButtonAñadir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonAñadir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="comp51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\comp51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-
-  <data name="cdAccComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cdAccComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImagenLogin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\ImagenLogin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="botonLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\botonLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  
-  <data name="cuaCeleste" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cuaCeleste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cu3Compe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cu3Compe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\IMAGENES\#03370A\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MotivacionImg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionImg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CuadroBlanco" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CuadroBlanco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icVolver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icVolver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="LDeportistas3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LDeportistas3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cu2Comp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cu2Comp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Inicio\Inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lbien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\Lbien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cdAccMetas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cdAccMetas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenLogin2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\ImagenLogin2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEnt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LEnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BotonMas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BotonMas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\btnLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linicio3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\Linicio3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cdAccComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cdAccComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnCompe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCompe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icVolver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icVolver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionImg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionImg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecuadroLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\RecuadroLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionMostrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionMostrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botonLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\botonLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\Linicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuaCeleste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuaCeleste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RUN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RUN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LCerr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LCerr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LMotiv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LMotiv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accesoEntrenamientos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accesoEntrenamientos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnRegistrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\btnRegistrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AccesoReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AccesoReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LReportes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LReportes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LMonitoreo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LMonitoreo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comp51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cu5Comp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cu5Comp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuadroResumen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuadroResumen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comp5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="accesoMetas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\accesoMetas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LEnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\LEnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Texto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Texto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuAccEntre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuAccEntre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\LogoMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IcDEPORTISTAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IcDEPORTISTAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\#03370A\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="botonRegisEntre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botonRegisEntre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionEstrella" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionEstrella.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Linicio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\Iconos Menu\Linicio2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImagenI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionImg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionImg3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CuComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CuComp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comp3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pcRegistroEnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pcRegistroEnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cu3Compe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cu3Compe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="comp4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comp4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMGLOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\IMGLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="buttonCuadro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\buttonCuadro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImagenLogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\IMAGENES\ImagenLogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MotivacionExpandir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MotivacionExpandir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

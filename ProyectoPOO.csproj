@@ -157,6 +157,12 @@
     <Compile Include="ucMotivacion.Designer.cs">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucMotivacionAsistencia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMotivacionAsistencia.Designer.cs">
+      <DependentUpon>ucMotivacionAsistencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="ucMotivacionDestacado.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -254,6 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucMotivacion.resx">
       <DependentUpon>ucMotivacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMotivacionAsistencia.resx">
+      <DependentUpon>ucMotivacionAsistencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucMotivacionDestacado.resx">
       <DependentUpon>ucMotivacionDestacado.cs</DependentUpon>
@@ -511,6 +520,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BotonMas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MotivacionExpandir.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
